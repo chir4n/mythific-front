@@ -1,24 +1,80 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-	<title>Hello <3</title>
-	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<style>
-	body {
-		background-color: white;
-		text-align: center;
-		padding: 50px;
-		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-	}
-	#logo {
-		margin-bottom: 40px;
-	}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Mythific</title>
 </head>
 <body>
-	<h1 style="color:green;"> Hello World by Zeyl ! </h1>
-	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
-    Pipo va au zoo
-	<?php if($_ENV["USER"]) {?><h3>My user is <?php echo $_ENV["USER"]; ?></h3><?php } ?>
-		</body>
+    <div class="sidebar">
+        <a href="#"><img src="img/logo-mythific.png" alt=""></a>
+        <div class="links">            
+            <div>
+             <a href="">À propos</a>
+            </div>
+            <div>
+        
+                <a href="">Actualités</a>
+            </div>
+            <div>
+             
+                <a href="">Sources & Références</a>
+            </div>
+                        <div> 
+                        <a href="">Boutique</a>
+                    </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="footer txt-center">
+                    <i class="contact"></i>
+                    <a href="#">Contact</a>
+                    <p>©Mythific 2019</p>
+                    <small><a href="#">Mentions légales</a> | <a href="#">Plan de site</a> </small>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container">  
+        <nav>
+              <div>
+                     <img src="img/god-goddess-demons-hero-mythology.png" alt="">
+                    <a href="#"><strong>Divinités</strong><small>Démons & Héros</small></a>
+                </div>
+                <div>
+                    <img src="img/creatures-plants-mythology.png" alt="">
+                    <a href="#"><strong>Créatures</strong><small>& Plantes</small></a>
+                </div>
+                <div>
+                    <img src="img/objects-mythology.png" alt="">
+                    <a href="#"><strong>Objets</strong></a>
+                </div>
+                <div>
+                    <img src="img/locations-mythology.png" alt="">
+                    <a href="#"><strong>Lieux</strong></a>
+                </div>
+                <div>
+                    <img src="img/events-mythology.png" alt="">
+                    <a href="#"><strong>Événements</strong></a>
+                </div>
+                <div>
+                    <img src="img/motifs-mythology.png" alt="">
+                    <a href="#"><strong>Motifs</strong></a>
+                </div>
+               
+        </nav>
+        <div class="bandeau">
+            <h2>Mythes, dieux et déesses, créatures, histoires, lieux, artefacts...</h2>
+            <h1>Cherchez la légende</h1>
+            <div class="searchbar">
+                    <input type="text" placeholder="" class="search"/>
+            </div>
+        </div>
+       
+    </div>  
+        
+     
+    
+</body>
 </html>

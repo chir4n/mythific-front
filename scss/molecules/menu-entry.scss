@@ -1,0 +1,113 @@
+nav {
+    text-align:center;
+    justify-content: center;
+    display: inline-flex;
+    width:100%;
+    background: linear-gradient(180deg, rgba(0,0,9,1) 0%, rgba(255,255,255,0) 100%);
+    padding-top:1rem;
+    padding-bottom:5rem;
+    div {
+        max-width: 105px;
+        display:inline-block;
+        position: relative;
+        margin: 0px 33px;
+        &:hover {
+            filter: brightness(90%);
+            cursor: pointer;
+        }
+    
+        
+        a {
+            text-decoration: none;    
+            display: block;        
+            strong {
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: 2px;
+                display: block;
+            }
+            &:before {
+                content:'';
+                position:absolute;
+                left:0;
+                right:0;
+                top:0;
+                bottom:0;                
+            }
+        }
+    }
+    
+    
+}
+
+.sidebar {
+    padding:1rem;
+    background:#151515;
+    min-width: 2vw;
+    max-width: 25vw;
+    height: 100vh;
+    position: fixed;
+    >div {
+        line-height: 50px;
+        height: 50px;
+        clear: both;
+        img {
+            float:left;
+        }
+        a {
+            color:#fff;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px; 
+            
+            &:hover {
+                color: var(--color);
+            }
+        }
+        
+    }
+    .footer  {
+        position: absolute;
+        height: auto;
+    bottom: 2%;
+        i {
+            background: url(../img/contact.png) no-repeat;
+            display: block;
+            height: 27px;
+            width: 32px;
+            margin: 1rem auto 0 auto;
+        }
+        a {
+            margin:0
+        }
+        small a  {
+            color: var(--grey);
+            margin:0
+        }
+        p,small {
+            color: var(--grey);
+            margin-bottom: 0;
+        }
+    }    
+
+    
+
+}
+.links {
+    margin-top:18%;
+}
+.apropos::before {
+content: url(img/creatures-plants-mythology.png);
+}
+
+
+  .flex-container {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+ 

@@ -1,0 +1,92 @@
+/*Text*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
+body {
+  font-size:16px;
+  font-family:"Raleway";
+}
+
+
+
+strong,b {
+  font-weight:600;
+}
+em,i {
+  font-style:italic;
+}
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h4 {
+  font-weight:900;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  margin-bottom:2rem;
+  color: var(--color)
+}
+h1 {font-size: 3rem}
+h2 {font-size: 2rem}
+h3 {font-size: 1.75rem}
+h4 {font-size: 1.50rem;}
+h5 {font-size: 1.25rem;}
+
+p {
+  margin-bottom:1rem;
+  line-height: 1.5rem;
+}
+a {
+  color: var(--color);
+  &:hover {filter: brightness(90%);  }
+
+}
+
+blockquote{
+    width:80%;
+    margin:2rem auto;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid var(--color) ;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+    border-radius:5px;
+
+    &:before{
+        content: "\201C";
+        color:var(--color);
+        font-size:6rem;
+        position: absolute;
+        left: 10px;
+        top:-10px;
+        }
+  
+    &:after{
+        content: '';
+        }
+  
+    span{
+        display:block;
+        color:#333333;
+        font-style: normal;
+        font-weight: bold;
+        margin-top:1em;
+        }
+}
+
+
+
+sup {font-size:0.75rem; vertical-align:top;}
+sub {font-size:0.75rem; vertical-align:bottom;}
+small {font-size:12px;}
+mark {background-color: var(--color);filter:brightness(1.2)}
+
+
+.txt-center {
+    text-align: center;
+}
+.txt-right {
+    text-align: right;
+}
+.txt-left {
+    text-align: left;
+}

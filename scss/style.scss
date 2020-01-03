@@ -1,0 +1,12 @@
+@use 'reset';
+@use 'base';
+@use 'fonts';
+@use 'colors';
+@use 'forms';
+@use 'images';
+@use 'molecules/menu-entry';
+
+body {
+  font-size:16px;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
